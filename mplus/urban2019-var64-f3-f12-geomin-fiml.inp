@@ -1,0 +1,56 @@
+TITLE: Var64-Factor9-20180228
+DATA: FILE = "../urbandata2019-64var-missing.dat";
+VARIABLE: 
+NAMES = modeCar modePT modeBike modeWalk gasPrice rdDeath subLen subLenD subStPHK
+     subRidPC subAge BRTLen BRTLenD BRTStPHK BRTFlPHK BRTRidPC BRTAge bsSt bsStPHK
+     bsBikes bsBikPHK bsAge congest AMPeak PMPeak TI TTI inefInd pop land popDen
+     poCh9000 poCh0010 poCh1020 poCh2025 ur15 urCh1525 GDPPCP unemploy costLiv rent
+     grocery restaPri locPurPo gini poverty lifeExp safety internet digital innovat
+     smartphon CO2EmsPC polluI stLenT stLenD stLenAvg intersT intersD k_avg
+     stPerNode circuity loopP highwayP; 
+		MISSING = .;
+        CENSORED =  
+            subLen (b)
+            subLenD (b)
+            subStPHK (b)
+            subRidPC (b)
+            subAge (b)
+            BRTLen (b)
+            BRTLenD (b)
+            BRTStPHK (b)
+            BRTFlPHK (b)
+            BRTRidPC (b)
+            BRTAge (b)
+            bsSt (b)
+            bsStPHK (b)
+            bsBikes (b)
+            bsBikPHK (b)
+            bsAge (b)
+        	
+ANALYSIS:	TYPE = EFA 9 9;
+			ESTIMATOR = ML;
+			INTEGRATION = 4;
+    		PROCESS = 8;
+    		MITERATIONS = 5000;
+    		ITERATIONS = 5000;
+    		ROTATION = GEOMIN;
+    		RSTARTS = 100;
+            
+    		
+    !*		
+            ROTATION = CF-VARIMAX (OBLIQUE);
+			INTEGRATION = MONTECARLO (5000);
+			ROTATION = GEOMIN;
+			ROTATION = varimax; 
+			RITERATIONS = 5000 ;
+			H1CONVERGENCE = .01 ;	
+	*!
+
+OUTPUT: 	TECH5;
+
+	
+			
+
+
+
+

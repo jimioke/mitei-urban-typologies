@@ -1,0 +1,332 @@
+"","cluster"
+"Kabul",1
+"Algiers",1
+"Oran",2
+"Luanda",3
+"Huambo",1
+"Buenos Aires",4
+"Cordoba",3
+"Yerevan",5
+"Sydney",6
+"Melbourne",6
+"Vienna",7
+"Baku",5
+"Dhaka",8
+"Chittagong",1
+"Minsk",2
+"Brussels",5
+"Antwerp",6
+"Cotonou",1
+"La Paz",2
+"Santa Cruz",2
+"Sao Paulo",9
+"Rio de Janeiro",9
+"Belo Horizonte",9
+"Salvador",1
+"Brasilia",2
+"Recife",9
+"Sofia",5
+"Ouagadougou",1
+"Abidjan",1
+"Phnom Penh",1
+"Douala",1
+"Yaounde",1
+"Toronto",10
+"Montreal",10
+"Vancouver",4
+"Calgary",10
+"Edmonton",10
+"Ottawa",6
+"N'Djamena",1
+"Santiago",5
+"Valparaiso",3
+"Concepcion",2
+"Shanghai",11
+"Beijing",11
+"Guangzhou",11
+"Shenzhen",11
+"Chongqing",11
+"Wuhan",12
+"Tianjin",12
+"Dongguan",12
+"Chengdu",12
+"Nanjing",12
+"Harbin",12
+"Shenyang",12
+"Hangzhou",12
+"Xi’an",12
+"Zhengzhou",12
+"Qingdao",12
+"Changchun",12
+"Jinan",12
+"Taiyuan",12
+"Kunming",12
+"Dalian",12
+"Suzhou",12
+"Wuxi",12
+"Changsha",12
+"Urumqi",12
+"Hefei",12
+"Fuzhou",12
+"Shijiazhuang",12
+"Xiamen",12
+"Ningbo",12
+"Bogota",9
+"Medellin",1
+"Kinshasa",8
+"Lubumbashi",1
+"Brazzaville",1
+"San Jose",3
+"Havana",3
+"Prague",7
+"Copenhagen",6
+"Santo Domingo",2
+"Guayaquil",2
+"Quito",9
+"Cairo",2
+"Alexandria",1
+"San Salvador",2
+"Addis Ababa",1
+"Helsinki",6
+"Paris",4
+"Marseille",5
+"Lyon",4
+"Lille",4
+"Nice",6
+"Toulouse",5
+"Bordeaux",6
+"Tbilisi",5
+"Berlin",7
+"Hamburg",7
+"Munich",7
+"Cologne-Bonn",6
+"Frankfurt",6
+"Accra",1
+"Kumasi",1
+"Athens",5
+"Thessaloniki",3
+"Guatemala City",1
+"Conakry",1
+"Port-au-Prince",1
+"Tegucigalpa",1
+"Hong Kong",7
+"Budapest",5
+"Delhi",8
+"Mumbai",8
+"Kolkata",8
+"Chennai",8
+"Bangalore",8
+"Jaipur",1
+"Hyderabad",8
+"Pune",1
+"Surat",1
+"Lucknow",1
+"Ahmedabad",1
+"Patna",1
+"Jakarta",9
+"Surabaya",1
+"Bandung",1
+"Tehran",2
+"Mashhad",2
+"Isfahan",2
+"Tabriz",2
+"Shiraz",2
+"Baghdad",2
+"Mosul",3
+"Dublin",6
+"Tel Aviv",6
+"Haifa",6
+"Jerusalem",6
+"Rome",5
+"Milan",5
+"Naples",6
+"Turin",6
+"Tokyo",4
+"Osaka-Kobe-Kyoto",4
+"Nagoya",4
+"Fukuoka-Kitakyushu",5
+"Sapporo",5
+"Sendai",5
+"Hiroshima",5
+"Amman",3
+"Almaty",2
+"Nairobi",1
+"Mombasa",1
+"Kuwait City",10
+"Bishkek",2
+"Vientiane",1
+"Beirut",3
+"Monrovia",2
+"Tripoli",2
+"Antananarivo",1
+"Kuala Lumpur",2
+"Johor Bahru",2
+"Bamako",1
+"Nouakchott",1
+"Mexico City",9
+"Guadalajara",1
+"Monterrey",2
+"Puebla",2
+"Tijuana",2
+"Toluca",2
+"Leon",2
+"Ciudad Juarez",2
+"Acapulco",2
+"Chihuahua",2
+"Ulaanbaatar",1
+"Casablanca",1
+"Rabat",1
+"Maputo",1
+"Rangoon",1
+"Mandalay",1
+"Kathmandu",1
+"Amsterdam",6
+"Rotterdam-Hague",5
+"Auckland",6
+"Managua",1
+"Niamey",1
+"Lagos",8
+"Kano",1
+"Pyongyang",2
+"Oslo",7
+"Karachi",8
+"Lahore",8
+"Panama City",3
+"Asuncion",1
+"Lima",9
+"Arequipa",3
+"Manila",8
+"Davao",1
+"Cebu",1
+"Warsaw",5
+"Krakow",3
+"Lisbon",5
+"Porto",3
+"San Juan",3
+"Bucharest",5
+"Moscow",2
+"St. Petersburg",2
+"Novosibirsk",2
+"Yekaterinburg",2
+"Nizhny Novgorod",2
+"Samara",2
+"Kazan",2
+"Kigali",1
+"Riyadh",10
+"Mecca",2
+"Medina",2
+"Jeddah",2
+"Dakar",1
+"Belgrade",3
+"Freetown",1
+"Singapore",7
+"Bratislava",3
+"Mogadishu",1
+"Johannesburg",3
+"Cape Town",2
+"Durban",2
+"Pretoria",2
+"Seoul-Incheon",4
+"Busan",5
+"Daegu",5
+"Daejeon",5
+"Gwangju",5
+"Ulsan",6
+"Madrid",7
+"Barcelona",4
+"Valencia",6
+"Khartoum",2
+"Stockholm",7
+"Zurich",6
+"Aleppo",1
+"Damascus",1
+"Taipei",5
+"Kaohsiung",2
+"Taichung",3
+"Dar es Salaam",1
+"Bangkok",2
+"Lome",1
+"Tunis",2
+"Istanbul",9
+"Ankara",3
+"Izmir",3
+"Bursa",5
+"Adana",3
+"Kampala",1
+"Kiev",5
+"Kharkiv",5
+"Odessa",1
+"Dubai",10
+"Sharjah",2
+"Abu Dhabi",10
+"London",4
+"Birmingham",6
+"Manchester",6
+"Glasgow",5
+"Newcastle upon Tyne",6
+"Liverpool",6
+"New York(NY)",13
+"Los Angeles(CA)",13
+"Chicago(IL)",13
+"Miami(FL)",13
+"Philadelphia(PA)",13
+"Dallas-Fort Worth(TX)",10
+"Atlanta(GA)",10
+"Houston(TX)",10
+"Boston(MA)",13
+"Washington(DC)",13
+"Detroit(MI)",10
+"Phoenix-Mesa(AZ)",10
+"San Francisco Bay Area(CA)",10
+"Seattle(WA)",6
+"San Diego(CA)",10
+"Minneapolis-St. Paul(MN)",10
+"Denver-Aurora(CO)",10
+"Tampa-St. Petersburg(FL)",10
+"Baltimore(MD)",10
+"St. Louis(MO)",10
+"Portland(OR)",10
+"Cleveland(OH)",10
+"Las Vegas(NV)",10
+"Pittsburgh(PA)",10
+"Cincinnati(OH)",10
+"Sacramento(CA)",10
+"Virginia Beach(VA)",10
+"San Antonio(TX)",10
+"Kansas City(MO)",10
+"Indianapolis(IN)",10
+"Milwaukee(WI)",10
+"Orlando(FL)",10
+"Providence(RI)",10
+"Columbus(OH)",10
+"Austin(TX)",10
+"Memphis(TN)",10
+"Buffalo(NY)",10
+"Charlotte(NC)",10
+"Jacksonville(FL)",10
+"Salt Lake City(UT)",10
+"Louisville(KY)",10
+"Richmond(VA)",10
+"Hartford(CT)",10
+"Tucson(AZ)",10
+"New Orleans(LA)",10
+"Oklahoma City(OK)",10
+"Honolulu(HI)",6
+"Dayton(OH)",10
+"McAllen(TX)",10
+"Rochester(NY)",10
+"El Paso(TX)",10
+"Raleigh(NC)",10
+"Allentown-Bethlehem(PA)",10
+"Birmingham(AL)",10
+"Nashville-Davidson(TN)",10
+"Montevideo",3
+"Tashkent",5
+"Caracas",2
+"Maracaibo",2
+"Valencia(VZL)",2
+"Ho Chi Minh City",1
+"Hanoi",1
+"Sanaa",1
+"Lusaka",1
+"Harare",1
