@@ -1,8 +1,6 @@
 # mitei-urban-typologies
 MIT Energy Initiative: Urban Typologies—Supplemental data sources and code 
 
-README.txt
-
 # DATA
 Cities, indicators, factor scores and typology classification in <FINAL-COMBINED-DATASET.xlsx>
 
