@@ -7,19 +7,21 @@ README.txt
 Cities, indicators, factor scores and typology classification in <FINAL-COMBINED-DATASET.xlsx>
 
 # DESCRIPTION OF R SCRIPTS
-<mplus-prep.r>
+These are found in the `scripts` folder.
+
+### <mplus-prep.r>
 Scales and formats data to run in Mplus, with or without mean imputation
 
 OUTPUTS:
 	.dat files to run in MPlus
 
-<cluster-analyses.r>
+### <cluster-analyses.r>
 Performs clustering and plots dendrogram
 
-<fit-metrics.r>
+### <fit-metrics.r>
 Compute LSI (loading simplicity index) for varying factor solutions
 
-<fscore-analyses.r>
+### <fscore-analyses.r>
 Computes factor scores using mean-imputed data
 Computes missingness rate
 Plots factor loadings
@@ -37,7 +39,7 @@ OUTPUTS:
 	'loadings-64-variables-9-factors.pdf' (loading plot)
 
 
-<iterate.r>
+### <iterate.r>
 Iteratively inmputes missing data with typology averages
 The iteration loop sources the following scripts in order: 
 	(i)   <fscore-analyses.r>
@@ -45,19 +47,19 @@ The iteration loop sources the following scripts in order:
 	(iii) <typology-mean-iteration.r>
 
 
-<typology-profiles.r>
+### <typology-profiles.r>
 Computes typology averages of the 64 indicators used in the clustering
 Computes typology averages of the 9 factors
 Generates radar/spider plots for each or all of the typologies
 
-RUNNING THE EXPLORATORY FACTOR ANALYSIS IN MPLUS
+## RUNNING THE EXPLORATORY FACTOR ANALYSIS IN MPLUS
 1) Run the mplus-prep.r script
 2) In the same folder, call MPlus on the 'urban2019-var65-f3-f12-geomin-fiml.inp' to estimate results from 3- to 12-factor models
 3) In the folder mplus, call MPlus on the 'urban2019-var64-f9-geomin-fiml.inp' to run the 9-factor-only case
 4) The output files produced are saved with the same but with extension '.out'
 5) These outputs are processed into
 
-NOTES: 
+## NOTES: 
 - The results from Step (2) are manually processed into the Excel files:
 	- 'missing-loadings-f3-f12.xlsx' (loading matrix for all 10 factor solutions, each in a different sheet, without any indication of signficance)
 	- 'missing-loadings-f3-f12-sig.xlsx' (loading matrix for all 10 factor solutions with signficant loadings indicated by *)
