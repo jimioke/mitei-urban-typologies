@@ -53,11 +53,11 @@ Computes typology averages of the 9 factors
 Generates radar/spider plots for each or all of the typologies
 
 ## RUNNING THE EXPLORATORY FACTOR ANALYSIS IN MPLUS
-1) Run the mplus-prep.r script
-2) In the same folder, call MPlus on the 'urban2019-var65-f3-f12-geomin-fiml.inp' to estimate results from 3- to 12-factor models
-3) In the folder mplus, call MPlus on the 'urban2019-var64-f9-geomin-fiml.inp' to run the 9-factor-only case
-4) The output files produced are saved with the same but with extension '.out'
-5) These outputs are processed into
+1. Run the mplus-prep.r script
+2. In the same folder, call MPlus on the 'urban2019-var65-f3-f12-geomin-fiml.inp' to estimate results from 3- to 12-factor models
+3. In the folder mplus, call MPlus on the 'urban2019-var64-f9-geomin-fiml.inp' to run the 9-factor-only case
+4. The output files produced are saved with the same but with extension '.out'
+5. These outputs are processed into
 
 ## NOTES: 
 - The results from Step (2) are manually processed into the Excel files:
