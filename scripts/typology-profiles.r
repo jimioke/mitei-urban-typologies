@@ -10,7 +10,7 @@ scaleMaxMin1 <- function(x){1*(x - min(x, na.rm=T)) / (max(x, na.rm=T) - min(x, 
 factor_scores <- scaled.f9scores[,c(1:num_fac)]
 colnames(factor_scores) = c("Metro", "BRT", "Bikeshare", "Development", "Sustainability", "Population", "Congestion", "Sprawl", "Network")
 #factor_scores <- round(factor_scores,2)
-factor_scores$clusterID <- fac9clusters13.ward.scaled$cluster
+factor_scores$clusterID <- fac9clusters.ward.scaled$cluster
 factor_scores$superclusterID <- factor_scores$clusterID
 factor_scores <- data.table(factor_scores)
 factor_scores[clusterID==3, superclusterID := 1] # congested
@@ -139,3 +139,20 @@ row.names(typology_var_means) <- c(	"Congested Emerging",
                                     "MetroBike Giant",
                                     "MetroBike Emerging"	)
 
+
+#single_spider_plot <- function(){
+png(filename="output/single-spider.png",width=16, height=10, units="in",res=360,type='cairo')
+radarchart(plot_data, axistype=1, centerzero=FALSE,
+            #custom polygon #typo_averages$color[i]
+            pcol=alpha(typo_averages$color,.8) , plwd=3, plty=1 , 
+            #custom the grid
+            cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,1,.25), cglwd=0.8,
+            #custom labels
+            vlcex=1.5,
+  )
+par(mai=c(0,0,0,0))
+
+legend(x=1.5, y=1, legend = rownames(plot_data[-c(1,2),]), bty = "n", pch=20 , col=typo_averages$color , text.col = "black", cex=1.2, pt.cex=3)
+dev.off()
+
+#single_spider_plot
