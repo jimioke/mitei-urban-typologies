@@ -64,7 +64,7 @@ typology_factor_means$color <- c(
   '#fdbf6f', #lightorange			
   '#e31a1c', #darkred
   '#ff7f00', #darkorange
-  '#ffff99', #yellow '#d2b48c', #lightbrown
+  '#eaddca', # #ffff99', #yellow '#d2b48c', #lightbrown
   '#b15928', #darkbrown
   '#a6cee3', #lightblue
   '#1f78b4', #darkblue
@@ -141,18 +141,21 @@ row.names(typology_var_means) <- c(	"Congested Emerging",
 
 
 #single_spider_plot <- function(){
+
 png(filename="output/single-spider.png",width=16, height=10, units="in",res=360,type='cairo')
+op <- par(mar = c(5, 4, 12, 2) + 0.1) #c(1, 2, 10, 1))
 radarchart(plot_data, axistype=1, centerzero=FALSE,
             #custom polygon #typo_averages$color[i]
-            pcol=alpha(typo_averages$color,.8) , plwd=3, plty=1 , 
+            pcol=alpha(typo_averages$color,.8) , plwd=4, plty=1 , 
             #custom the grid
-            cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,1,.25), cglwd=0.8,
+            cglcol="grey", cglty=1, axislabcol="black", caxislabels=seq(0,1,.25), cglwd=0.8,
             #custom labels
-            vlcex=1.5,
+            vlcex=1.7,
   )
-par(mai=c(0,0,0,0))
+par(op)#mai=c(3,0,0,0))
 
-legend(x=1.5, y=1, legend = rownames(plot_data[-c(1,2),]), bty = "n", pch=20 , col=typo_averages$color , text.col = "black", cex=1.2, pt.cex=3)
+legend(x=1.6, y=1, legend = rownames(plot_data[-c(1,2),]), bty = "n", pch=20 , col=typo_averages$color , text.col = "black", cex=1.5, pt.cex=3)
+
 dev.off()
 
 #single_spider_plot

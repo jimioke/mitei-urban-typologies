@@ -26,7 +26,7 @@ dis9scaled = dist(scaled.f9scores,method="manhattan")
 dis9scaled.mat = as.matrix(dis9scaled)
 write.csv(scaled.f9scores, 'output/f9scores-scaled.csv', row.names = F)
 
-#num_clust = 12 #This is set in iterate.r
+num_clust = 12 #This is set in iterate.r
 
 ##################################################################################################################
 #### Plot dendrogram
